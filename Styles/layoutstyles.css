@@ -1,0 +1,58 @@
+body{
+background-color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common{
+    background-color: white;
+    border: 2px black;}
+
+.header{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 1px black solid;}
+
+.leftmenu{
+    position: absolute;
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 52px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: 1px black solid;}
+
+.mainbody{
+    position: absolute;
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 52px;
+    padding: 40px;
+    padding-right: 5px;}
+
+.rightmenu{ 
+    position: absolute;
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 52px;
+    border-left: 1px black solid;
+    padding-left: 5px;}
+
+.footer{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: grey;
+    text-align: center;
+    padding-top: 15px;}
+
+    .subheader{float: right;}
